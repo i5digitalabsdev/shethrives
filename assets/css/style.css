@@ -335,6 +335,15 @@ textarea {
 
 img {
   max-width: 100%;
+  
+}
+
+.header-logo img {
+  width: 160px !important;
+}
+
+.single-widget img {
+  width: 160px;
 }
 
 html {
@@ -3095,6 +3104,10 @@ button.tm-videobutton:hover span {
   overflow: hidden;
 }
 
+.heroslider-slider {
+  width: 1600px;
+}
+
 .heroslider-slider ul.slick-dots {
   bottom: 30px;
   z-index: 2;
@@ -3107,6 +3120,8 @@ button.tm-videobutton:hover span {
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
+  height: 160px;
+  width: 150px;
 }
 
 .heroslider-contentwrapper {
@@ -3462,6 +3477,10 @@ button.tm-videobutton:hover span {
 
 .about-image2 {
   margin-left: -157px;
+}
+
+.about-image2 img {
+  width: 500px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -5233,6 +5252,76 @@ button.tm-videobutton:hover span {
  */
 .brandlogo {
   padding: 0 15px;
+}
+
+.brandlogo-1 {
+  padding: 0 15px;
+}
+
+.brandlogo-1 img {
+  width: 130px;
+}
+
+.brandlogo-2 {
+  padding: 0 15px;
+}
+
+.brandlogo-2 img {
+  width: 100px;
+}
+
+.brandlogo-3 {
+  padding: 0 15px;
+}
+
+.brandlogo-3 img {
+  width: 150px;
+}
+
+.brandlogo-4 {
+  padding: 0 15px;
+}
+
+.brandlogo-4 img {
+  width: 150px;
+}
+
+.brandlogo-5 {
+  padding: 0 15px;
+}
+
+.brandlogo-5 img {
+  width: 190px;
+}
+
+.brandlogo-6 {
+  padding: 0 15px;
+}
+
+.brandlogo-6 img {
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.brandlogo-7 {
+  padding: 0 15px;
+}
+
+.brandlogo-7 img {
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.brandlogo-8 {
+  padding: 0 15px;
+}
+
+.brandlogo-8 img {
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
 }
 
 .brandlogo a {

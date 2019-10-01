@@ -67,15 +67,15 @@ input[type=radio]:checked~label:before,
 .tm-checkout-total td+td,
 .tm-checkout-coupon>a span,
 .tm-contact-block p a:hover {
-    color: #8bc34a;
+    color: #69a243;
 }
 
 ::-moz-selection {
-    background: #8bc34a;
+    background: #69a243;
 }
 
 ::selection {
-    background: #8bc34a;
+    background: #69a243;
 }
 
 .tm-button,
@@ -113,7 +113,7 @@ button.tm-button,
 .tm-myaccount-address-billing a.edit-button,
 .tm-myaccount-address-shipping a.edit-button,
 button.tm-customizer-opener {
-    background: #8bc34a;
+    background: #69a243;
 }
 
 .tm-button,
@@ -153,11 +153,11 @@ input[type=radio]:checked~label:before,
 .tm-contact-formfield input:active,
 .tm-contact-formfield textarea:focus,
 .tm-contact-formfield textarea:active {
-    border-color: #8bc34a;
+    border-color: #69a243;
 }
 
 .tm-checkout-coupon>a {
-    border-left-color: #8bc34a;
+    border-left-color: #69a243;
 }
 
 

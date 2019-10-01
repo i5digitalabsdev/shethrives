@@ -89,7 +89,7 @@
     function tmCustomizer() {
         var customizer = $('.tm-customizer');
         var dataColorCss = $('[data-color-css]');
-        var currentColorfile = '';
+        var currentColorfile = 'assets/css/colors/color-3.css';
 
         customizer.find('.tm-customizer-opener').on('click', function () {
             customizer.toggleClass('open');
@@ -373,21 +373,21 @@
                             breakpoint: 992,
                             settings: {
                                 slidesToShow: 3,
-                                slidesToScroll: 1,
+                                slidesToScroll: 2,
                             }
                         },
                         {
                             breakpoint: 768,
                             settings: {
                                 slidesToShow: 2,
-                                slidesToScroll: 1
+                                slidesToScroll: 2
                             }
                         },
                         {
                             breakpoint: 420,
                             settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
+                                slidesToShow: 2,
+                                slidesToScroll: 2
                             }
                         }
                     ]

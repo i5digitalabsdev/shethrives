@@ -963,5 +963,33 @@
 
     sasna.init();
 
+    // =================  contact form  =================  //
+
+$("#contact_form").on('submit',function(t){
+    t.preventDefault();
+    $('#contact_submit .fa-spin').removeClass('hidden');
+    submitForm();
+});
+
+function submitForm(){
+    var name=$("#name").val(),
+        email=$("#email").val(),
+        phone=$("#phone").val()
+    $.ajax({type:"POST",url:"contact.php",
+    data:"&name="+name+"&email="+email+"&phone="+phone,
+    success:function(s){
+        "success"==s&&formSuccess()}
+    })
+}
+
+function formSuccess(){
+    $('#contact_submit .fa-spin').addClass('hidden');
+    $("#msgSubmit").removeClass("hidden"),setTimeout(function()
+    {
+        $("#msgSubmit").addClass("hidden");
+    },2e3);
+}
+
+
 
 })(jQuery);

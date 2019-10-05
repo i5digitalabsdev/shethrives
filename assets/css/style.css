@@ -1655,12 +1655,12 @@ button.tm-videobutton:hover span {
 }
 
 .tm-section-title h2::before, .tm-section-title h3::before {
-  content: "[";
+  /* content: "["; */
   padding-right: 10px;
 }
 
 .tm-section-title h2:after, .tm-section-title h3:after {
-  content: "]";
+  /* content: "]"; */
   padding-left: 10px;
 }
 
